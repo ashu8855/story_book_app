@@ -10,7 +10,7 @@ const connectDB = require('./config/db')
 dotenv.config({ path: './config/.env' });
 
 // Passport config
-require('./config/passport')(passport)
+require('./config/passport')(passport);
 
 // Connect to database
 connectDB();
